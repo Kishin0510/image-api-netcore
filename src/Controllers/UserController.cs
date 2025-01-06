@@ -22,7 +22,7 @@ namespace image_api_netcore.src.Controllers
                 return Ok(result);
 
             } catch (Exception e) {
-                return BadRequest(e.Message);
+                return Unauthorized(e.Message);
             }
         }
 

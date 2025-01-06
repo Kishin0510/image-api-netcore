@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("image-api-netcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08516892468c9406912bd6bedb9b245c7c51d235")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+790a8df46f9c1f1fb05e7be5c47e39aa87f1b6b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("image-api-netcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("image-api-netcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

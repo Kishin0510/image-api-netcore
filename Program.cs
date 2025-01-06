@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 Env.Load();
 Cloudinary cloudinary = new Cloudinary(Environment.GetEnvironmentVariable("CLOUDINARY_URL"));
 cloudinary.Api.Secure = true;
-
+builder.Services.AddSingleton(cloudinary);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDBContext>(opt => opt.UseSqlite("Data Source=database.db"));
 builder.Services.AddEndpointsApiExplorer();
@@ -46,6 +46,8 @@ builder.Services.AddSwaggerGen(c => {
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddHttpContextAccessor();
 var key = builder.Configuration.GetSection("AppSettings:Token").Value;
 if (string.IsNullOrEmpty(key))
