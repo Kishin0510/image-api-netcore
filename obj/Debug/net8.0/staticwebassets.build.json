@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GeBemMJlUFewKM5zZGIHPmlVBsFMyTfVEA9THfUegZk=",
+  "Source": "image-api-netcore",
+  "BasePath": "_content/image-api-netcore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\image-api-netcore.props" />
+</Project>
