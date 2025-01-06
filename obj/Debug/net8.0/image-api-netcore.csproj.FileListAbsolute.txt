@@ -151,3 +151,4 @@ C:\Users\NicoK\Desktop\ProyectoEjemplo\image-api-netcore\bin\Debug\net8.0\Micros
 C:\Users\NicoK\Desktop\ProyectoEjemplo\image-api-netcore\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\NicoK\Desktop\ProyectoEjemplo\image-api-netcore\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\NicoK\Desktop\ProyectoEjemplo\image-api-netcore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NicoK\Desktop\ProyectoEjemplo\image-api-netcore\bin\Debug\net8.0\BCrypt.Net-Next.dll
