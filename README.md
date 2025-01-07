@@ -1,8 +1,8 @@
 ## Cátedra 3 - UCN 
 Para este repositorio es necesario tener instalado:
-  1. .NET SDK.
+  1. .NET SDK (8.0.203 mínimo). 
   2. Una IDE como Visual Studio Code.
-  3. Node.js
+  3. Node.js (22.11.0 mínimo)
 
 Alumno:
 
